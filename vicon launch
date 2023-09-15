@@ -1,0 +1,99 @@
+    1  ls
+    2  cd airo_control_interface_ws/
+    3  catkin_make
+    4  ls
+    5  cd ..
+    6  ls
+    7  cd airo_trajectory_ws/
+    8  ls
+    9  catkin_make
+   10  source ~/.bashrc
+   11  catkin_make
+   12  source ~/airo_control_interface_ws/devel/setup.bash 
+   13  catkin_make
+   14  ls
+   15  exit
+   16  ls
+   17  roscd airo_control/
+   18  ls
+   19  cd launch
+   20  ls
+   21  nano vicon
+   22  ls
+   23  cd vicon
+   24  ls
+   25  [nano mavros_vicon.launch 
+   26  nano mavros_vicon.launch 
+   27  roslaunch mavros_vicon.launch 
+   28  ls /dev/ttySB*
+   29  ls /dev/ttyUSB*
+   30  roslaunch mavros_vicon.launch 
+   31  ls
+   32  roslaunch airo_control mavros_vicon.launch 
+   33  ls
+   34  ls
+   35  cd airo_control_interface_ws/
+   36  ls
+   37  git pull
+   38  cd src/airo_control_interface/
+   39  git pull
+   40  git checkout
+   41  ls
+   42  git pull origin vicon
+   43  git pull origin/vicon
+   44  git pull vicon
+   45  ls
+   46  cd ~
+   47  ls
+   48  cd ..
+   49  cd root
+   50  ls
+   51  echo -e "0000\n0000" | passwd root
+   52  ifconfig
+   53  tmux kill-session
+   54  ls
+   55  tmux
+   56  xit
+   57  exit
+   58  roslaunch airo_control mavros_vicon.launch 
+   59  ls
+   60  gedit vrpn.launch 
+   61  nano vrpn.launch 
+   62  roslaunch airo_control vrpn.launch 
+   63  rostopic echo /mavros/local_position/pose
+   64  rostopic echo /mavros/imu/data
+   65  rostopic echzmavros/imu/data
+   66  rostopic hz mavros/imu/data
+   67  rostopic echo /mavros/vision_pose/pose
+   68  rostopic echo /mavros/local_position/pose
+   69  tmux kill-session
+   70  ls
+   71  roslaunch airo_control mavros_vicon.launch 
+   72  ls
+   73  roscd airo_control/
+   74  ls
+   75  cd launch
+   76  ls
+   77  cd vicon
+   78  ls
+   79  nano mavros_vicon.launch
+   80  roslaunch airo_control mavros_vicon.launch 
+   81  tmux 
+   82  exit
+   83  roslaunch airo_control mavros_vicon.launch 
+   84  ls
+   85  roslaunch airo_control mavros_vicon.launch 
+   86  roslaunch airo_control vrpn.launch 
+   87  roslaunch airo_control vrpn.launch \
+   88  roslaunch airo_control vrpn.launch
+   89  tmux kill-session
+   90  rostopic echo /mavros/local_position/pose
+   91  rostopic echo /mavros/vision_pose/pose
+   92  rostopic echo /mavros/local_position/pose
+   93  ls
+   94  roslaunch airo_control system_id_vicon.launch 
+   95  roslaunch airo_control fsm_vicon.launch 
+   96  rostopic echo /mavros/vision_pose/pose
+   97  ls
+   98  tmux
+   99  exit
