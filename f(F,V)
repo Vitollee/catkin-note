@@ -2,3 +2,4 @@
        K1 =     0.06092 
        K2 =       1.843 
        K3 =      0.7826  
+rosparam set /mavros/diagnostic_pub_rate 100
