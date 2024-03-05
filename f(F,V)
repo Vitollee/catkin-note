@@ -5,3 +5,7 @@
 rosparam set /mavros/diagnostic_pub_rate 100
 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
 mavlink stream -d /dev/ttyS0 -s BATTERY_STATUS -r 100
+        const float K1 = 1.450420984642443;
+        const float K2 = 1.143035702043988;
+        const float K3 = 0.422541015026179;
+        thrust = ((sqrt(( mass * a_z) / (K1 * pow(voltage_2, K2)) + pow(((1 - K3) / (2 * sqrt(K3))), 2)) - ((1 - K3) / (2 * sqrt(K3)))) / sqrt(K3))  ;
