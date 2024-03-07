@@ -1,6 +1,6 @@
 clc
 clear
-
+% hold test should multiply 1.08
 z = readmatrix('with.csv','Range','A1:A8002');
 z_ref = readmatrix('with.csv' ,'Range','F1:F8002');
 z1=readmatrix('with.csv','Range','G1:G8002');
