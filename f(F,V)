@@ -9,3 +9,7 @@ mavlink stream -d /dev/ttyS0 -s BATTERY_STATUS -r 100
         const float K2 = 1.143035702043988;
         const float K3 = 0.422541015026179;
         thrust = ((sqrt(( mass * a_z) / (K1 * pow(voltage_2, K2)) + pow(((1 - K3) / (2 * sqrt(K3))), 2)) - ((1 - K3) / (2 * sqrt(K3)))) / sqrt(K3))  ;
+%new k
+k1= 0.2112    
+k2= 1.8877    
+k3= 0.5592
