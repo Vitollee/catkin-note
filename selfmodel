@@ -5,3 +5,6 @@ Coefficients (with 95% confidence bounds):
        k2 =      0.9442  (-3.579e+04, 3.579e+04)
        k3 =      0.7631  (0.7574, 0.7689)
        k4 =       1.452  (-5.504e+04, 5.504e+04)
+
+
+\sigma =\dfrac{\sqrt{Fk_{1}}-k_{3}}{k_{2}U_{b}^{k_{4}}
