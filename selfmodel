@@ -1,3 +1,4 @@
+% K value from intenger test
 General model:
      f(x,y) = k1*(k2*x*(y^(k3))+k4)^2
 Coefficients (with 95% confidence bounds):
@@ -8,3 +9,12 @@ Coefficients (with 95% confidence bounds):
 
 
 \sigma =\dfrac{\sqrt{Fk_{1}}-k_{3}}{k_{2}U_{b}^{k_{4}}
+
+% K value from single unit test
+General model:
+     f(x,y) = k1*(k2*x*(y^(k3))+k4)^2
+Coefficients (with 95% confidence bounds):
+       k1 =      0.5198  (-1.729e+06, 1.729e+06)
+       k2 =       0.244  (-4.057e+05, 4.057e+05)
+       k3 =      0.9967  (0.9315, 1.062)
+       k4 =      0.4648  (-7.729e+05, 7.729e+05)
